@@ -10,9 +10,9 @@
  int main (void)
 {
 	char c;
-	int 1;
-	long l1;
-	long long ll1;
+	int i;
+	long li;
+	long long lli;
 	float f;
 
        printf("Size of a char: %ld byte(s)\n",sizeof(c));
