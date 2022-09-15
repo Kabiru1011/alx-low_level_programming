@@ -7,7 +7,8 @@
  * this program prints "programming is like building a multilingual puzzle
  * Return: 0
  */
- int main(void)
+ in
+t main(void)
 {
 	printf("with proper programmer, but the outcome is piece of art,\n");
 	return (0);
