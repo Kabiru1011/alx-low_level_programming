@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcpy - capy paste string
+ * _strcpy - capy paste string
  * @dest: destination
  * @src: source
  *
@@ -9,14 +9,15 @@
  */
 
 char *_strcpy(char *dest, char *src)
-
+{
 	int inc = 0;
 
-	while (8(src + inc) != '\0')
-{
+	while (*(src + inc) != '\0')
+	{
 	*(dest + inc) = *(src + inc);
 	inc++;
-}
+	}
 *(dest + inc) = '\0';
 
 return (dest);
+}
