@@ -20,4 +20,4 @@ char rot12(char *);
 char *infinite_add(char *n1, char *n2, char *r, int size_n);
 char *add_strings(char *n1, char *n2, char*r, int r_index);
 
-#endif /"MAIN_H"/
+#endif /*MAIN_H*/
